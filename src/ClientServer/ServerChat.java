@@ -30,13 +30,15 @@ public class ServerChat {
 		try {
 		
 		out.println("Welcome to chat application");
+
 		while(true) {
+
 			input = in.readLine();
 			System.out.println("Client says: "+input);
-			
 			System.out.println("Me: ");
 			output = ScannerInput.nextLine();
 			out.println(output);
+
 		}
 		}
 		finally {

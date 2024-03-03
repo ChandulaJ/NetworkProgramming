@@ -27,11 +27,11 @@ static int port = 7777;
 		BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 		
 		try {
-			
+
+
 			while(true) {
 				input = in.readLine();
 				System.out.println("Server says: "+input);
-				
 				System.out.println("Me: ");
 				output = ScannerInput.nextLine();
 				out.println(output);
